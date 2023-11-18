@@ -4,7 +4,13 @@ import { Link } from 'react-router-dom';
 export default function Home() {
     return (
         <>
-        <section> Home Page
+        <header>
+            <h1>Đoàn Lê Bảo Tịnh</h1>
+            <p>Est. 1989 | Thiếu Nhi Thánh Thể | Gương Mẫu
+            </p>
+        </header>
+        <section> 
+            Home Page
         </section>
         </>
     );
