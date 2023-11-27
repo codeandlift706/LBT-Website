@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,48 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.navHeader {
+  display: flex;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  margin: 1rem;
+  margin-bottom: 10rem;
+  flex-wrap: wrap;
+}
+
+
+/* .navBarHeading {
+  margin-right: 30rem;
+}
+
+.navBarTagLine {
+margin-right: 20rem;
+} */
+
+.navBar a {
+  margin: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.navBar a:hover {
+  color: #646cff;
 }

@@ -3,13 +3,19 @@ import { Link } from 'react-router-dom'; //useLocation is a hook that will retur
 
 function NavBar() {
     return (
-        <nav>
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/team">Team</Link>
-            <Link to="/events">Events</Link>
-            <Link to="/contact">Contact</Link>
-        </nav>
+        <>
+            <nav className="navBar">
+        <header classname="navHeader">
+            <h1 className="navBarHeading">Đoàn Lê Bảo Tịnh</h1>
+            <p className="navBarTagLine">Est. 1989 | Thiếu Nhi Thánh Thể | Gương Mẫu</p>
+        </header>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/team">Team</Link>
+                <Link to="/events">Events</Link>
+                <Link to="/contact">Contact</Link>
+            </nav>
+        </>
     );
 }
 
