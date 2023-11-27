@@ -74,39 +74,54 @@ button:focus-visible {
 
 body {
   margin: 0;
-}
-
-.navHeader {
   display: flex;
+  align-items: center;
 }
 
 .navBar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   right: 0;
   width: 100%;
-  margin: 1rem;
-  margin-bottom: 10rem;
   flex-wrap: wrap;
+  background-color: black;
 }
-
-
-/* .navBarHeading {
-  margin-right: 30rem;
-}
-
-.navBarTagLine {
-margin-right: 20rem;
-} */
 
 .navBar a {
-  margin: 1rem;
+  margin: 1.5rem;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .navBar a:hover {
+  color: #646cff;
+}
+
+.navBarHeading {
+  color: white;
+}
+
+.navBarTagline {
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}
+
+footer a {
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
   color: #646cff;
 }

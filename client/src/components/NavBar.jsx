@@ -5,10 +5,10 @@ function NavBar() {
     return (
         <>
             <nav className="navBar">
-        <header classname="navHeader">
-            <h1 className="navBarHeading">Đoàn Lê Bảo Tịnh</h1>
-            <p className="navBarTagLine">Est. 1989 | Thiếu Nhi Thánh Thể | Gương Mẫu</p>
-        </header>
+                <header classname="navHeader">
+                    <h1 className="navBarHeading">Đoàn Lê Bảo Tịnh</h1>
+                    <p className="navBarTagline">Est. 1989 | Thiếu Nhi Thánh Thể | Gương Mẫu</p>
+                </header>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/team">Team</Link>
