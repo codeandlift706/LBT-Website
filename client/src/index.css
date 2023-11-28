@@ -86,6 +86,7 @@ button:focus-visible {
 
 body {
   margin: 0;
+  width: auto;
 }
 
 .navBar {
@@ -96,7 +97,7 @@ body {
   right: 0;
   width: 100%;
   flex-wrap: wrap;
-  background-color: black;
+  background-color: #17192d;
 }
 
 .navBar a {
@@ -134,7 +135,8 @@ body {
 
 .homeContainer .homeHeading {
   color: white;
-  top: 10%;
+  margin-top: 13%;
+  font-size: 2rem;
 }
 
 
@@ -146,10 +148,10 @@ h2 {
 footer {
   display: flex;
   justify-content: flex-start;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: #17192d;
 }
 
 footer a {

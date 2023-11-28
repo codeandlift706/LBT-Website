@@ -7,7 +7,7 @@ function NavBar() {
             <nav className="navBar">
                 <header className="navHeader">
                     <h1 className="navBarHeading">Đoàn Lê Bảo Tịnh</h1>
-                    <p className="navBarTagline">Est. 1989 | Thiếu Nhi Thánh Thể | Gương Mẫu</p>
+                    {/* <p className="navBarTagline">Est. 1989 | Thiếu Nhi Thánh Thể | Gương Mẫu</p> */}
                 </header>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
