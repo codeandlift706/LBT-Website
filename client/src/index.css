@@ -114,23 +114,23 @@ body {
 
 
 .navBar a {
-  margin-top: 2.7rem;
-  margin-right: 8rem;
+  margin-top: 2.9rem;
+  margin-right: 5.5rem;
   text-decoration: none;
   color: white;
+  text-transform:uppercase;
 }
 
 .navBarHeading {
   margin-top: 1.5rem;
   margin-bottom: -0.9rem;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
-
 
 .navBar a:hover {
   color: #646cff;
+  opacity: 0.6;
 }
-
 
 #home {
   background-image: url(../group.jpg);
