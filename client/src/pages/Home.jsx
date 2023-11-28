@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom';
 export default function Home() {
     return (
         <>
-        <section> 
-            Home Page
-        </section>
+            <section id="home">
+                <section className="homeContainer">
+                    <h2 className="homeHeading">We are here to serve.</h2>
+                </section>
+            </section>
         </>
     );
 }
