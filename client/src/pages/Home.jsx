@@ -6,7 +6,8 @@ export default function Home() {
         <>
             <section id="home">
                 <section className="homeContainer">
-                    <h2 className="homeHeading">Est. 1989 | Thiếu Nhi Thánh Thể | Gương Mẫu</h2>
+                    {/* <h2 className="homeHeading">Who We Are:</h2> */}
+                    {/* <h2 className="homeHeading">Est. 1989 | Thiếu Nhi Thánh Thể | Gương Mẫu</h2> */}
                 </section>
             </section>
         </>

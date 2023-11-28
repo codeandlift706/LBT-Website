@@ -6,14 +6,13 @@ function NavBar() {
         <>
             <nav className="navBar">
                 <header className="navHeader">
-                    <h1 className="navBarHeading">Đoàn Lê Bảo Tịnh</h1>
-                    {/* <p className="navBarTagline">Est. 1989 | Thiếu Nhi Thánh Thể | Gương Mẫu</p> */}
+                    <h1 className="navBarHeading"><Link to="/">Đoàn Lê Bảo Tịnh</Link></h1>
+                    <p className="navBarTagline">Est. 1989 | Thiếu Nhi Thánh Thể | Gương Mẫu</p>
                 </header>
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/team">Team</Link>
-                <Link to="/events">Events</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/about">Our History</Link>
+                <Link to="/team">Meet the Team</Link>
+                <Link to="/events">Scheduled Events</Link>
+                <Link to="/contact">Contact Us</Link>
             </nav>
         </>
     );
