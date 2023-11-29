@@ -67,7 +67,6 @@ button:focus-visible {
   }
 } */
 
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -91,17 +90,25 @@ body {
 
 .navBar {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   position: fixed;
   top: 0;
   width: 100%;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   background-color: #17192d;
+  /* min-width: 20%; */
+  text-align: center;
 }
 
 .navHeader {
   margin-left: 1rem;
+  margin-bottom: 1rem;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 2;
 }
 
 /* .navBarHeading {
@@ -114,11 +121,15 @@ body {
 
 
 .navBar a {
+  /* flex-shrink: 2; */
+  /* width: 2rem; */
   margin-top: 2.9rem;
-  margin-right: 5.5rem;
+  /* padding-right: 2rem; */
   text-decoration: none;
   color: white;
-  text-transform:uppercase;
+  text-transform: uppercase;
+  min-width: 2%;
+  flex-grow: 1;
 }
 
 .navBarHeading {
@@ -177,4 +188,24 @@ footer a {
 
 footer a:hover {
   color: #646cff;
+}
+
+@media only screen and (max-width: 768px) {
+  .navBar {
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+  }
+
+  .navBar a {
+    margin-top: 0rem;
+  }
+
+  .navHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
