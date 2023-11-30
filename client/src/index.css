@@ -68,7 +68,8 @@ button:focus-visible {
 } */
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: 'Raleway', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -95,38 +96,26 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  /* flex-wrap: wrap; */
-  background-color: #17192d;
-  /* min-width: 20%; */
+  background-color: black;
   text-align: center;
 }
 
 .navHeader {
   margin-left: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.1rem;
   color: white;
+  font-weight: 600;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   flex-grow: 2;
 }
 
-/* .navBarHeading {
-  color: white;
-}
-
-.navBarTagline {
-  color: white;
-} */
-
-
 .navBar a {
-  /* flex-shrink: 2; */
-  /* width: 2rem; */
   margin-top: 2.9rem;
-  /* padding-right: 2rem; */
   text-decoration: none;
   color: white;
+  font-weight: 600;
   text-transform: uppercase;
   min-width: 2%;
   flex-grow: 1;
@@ -141,12 +130,13 @@ body {
 .navBar a:hover {
   color: #646cff;
   opacity: 0.6;
+  transition: 0.5s;
+
 }
 
 #home {
   background-image: url(../group.jpg);
   background-size: cover;
-  /* background-attachment: fixed; */
   background-position: center;
   height: 50rem;
   width: auto;
@@ -193,9 +183,6 @@ footer a:hover {
 @media only screen and (max-width: 768px) {
   .navBar {
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center;
-    text-align: center; */
   }
 
   .navBar a {
