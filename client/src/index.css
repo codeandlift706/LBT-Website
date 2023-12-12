@@ -96,7 +96,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: black;
+  /* background-color: #E1AD01; */
+  background-color:#354F52;
   text-align: center;
 }
 
@@ -234,22 +235,20 @@ h3+p {
   flex-grow: 2;
 }
 
-
-
-
 footer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   /* position: fixed; */
   bottom: 0;
   width: 100%;
-  background-color: #17192d;
+  /* background-color: white; */
+  background-color: #CAD2C5;
 }
 
 footer a {
   margin: 1rem;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 footer a:hover {
