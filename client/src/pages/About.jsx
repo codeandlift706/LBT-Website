@@ -1,6 +1,9 @@
 export default function About() {
     return (
         <div className="aboutContainer">
+            <header className="aboutHeader">
+                <h2>Our History</h2>
+            </header>
             <div className="startText">
                 <h3>How We Started</h3>
                 <p>
