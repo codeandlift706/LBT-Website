@@ -97,7 +97,7 @@ body {
   top: 0;
   width: 100%;
   /* background-color: #E1AD01; */
-  background-color:#354F52;
+  background-color: #354F52;
   text-align: center;
 }
 
@@ -129,7 +129,8 @@ body {
 }
 
 .navBar a:hover {
-  color: #646cff;
+  /* color: #646cff; */
+  color: black;
   opacity: 0.6;
   transition: 0.5s;
 
@@ -143,28 +144,84 @@ body {
   width: auto;
 }
 
-.homeContainer {
+.homeContainer section {
   display: flex;
   justify-content: center;
   align-items: center;
   display: inline-block;
   width: 100%;
-  margin-top: 8%;
 }
 
-.homeContainer .homeHeading {
+.homeContainer .collapsible {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  width: 100%;
+  padding: 10% 0 10% 0;
+  /* background-color: #CAD2C5; */
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.homeContainer .collapsible:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.homeContainer span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  width: 100%;
+  /* background-color: #CAD2C5; */
+  color: gray;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.homeContainer span:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: black;
+}
+
+/* .homeContainer section h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  width: 100%;
+  padding: 10% 0 10% 0;
+  background-color: #CAD2C5;
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.homeContainer section h2:hover {
+  color: black;
+  opacity: 0.6;
+  transition: 0.5s;
+} */
+
+.homeContainer section p {
+  width: 100%;
+  color: black;
   text-align: center;
-}
-
-h2 {
-  color: white;
+  font-size: 1.5rem;
 }
 
 
-.aboutContainer div {
+.aboutContainer section {
   margin-bottom: 20%;
+}
+
+.aboutContainer h3 {
+  text-transform: uppercase;
 }
 
 .aboutHeader {
@@ -174,15 +231,19 @@ h2 {
   background-position: center;
   height: 50rem;
   width: auto;
+  display: flex;
+  justify-content: center;
 }
 
-.aboutHeader h2 {
-  color: black;
+.historyHeader {
+  margin-top: 8rem;
+  color: white;
   text-align: center;
   text-transform: uppercase;
+  font-size: 4rem;
 }
 
-.startText {
+.leftText {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -192,11 +253,11 @@ h2 {
   width: 90%;
 }
 
-.startText h3 {
+.leftText h3 {
   margin-right: 40%;
 }
 
-.missionText {
+.rightText {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
@@ -206,11 +267,11 @@ h2 {
   width: 90%;
 }
 
-.missionText h3 {
+.rightText h3 {
   margin-left: 40%;
 }
 
-.doText {
+/* .doText {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -222,7 +283,7 @@ h2 {
 
 .doText h3 {
   margin-right: 40%;
-}
+} */
 
 h3 {
   color: black;
@@ -242,7 +303,7 @@ footer {
   bottom: 0;
   width: 100%;
   /* background-color: white; */
-  background-color: #CAD2C5;
+  background-color: #2F3E46;
 }
 
 footer a {
