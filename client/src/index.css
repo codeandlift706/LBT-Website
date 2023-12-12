@@ -161,6 +161,68 @@ h2 {
   color: white;
 }
 
+
+
+.aboutContainer div {
+margin-bottom: 10%;
+}
+
+.startText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.startText h3 {
+  margin-right: 40%;
+}
+
+.missionText {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.missionText h3 {
+margin-left: 40%;
+}
+
+.doText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.doText h3 {
+  margin-right: 40%;
+}
+
+h3 {
+  color: black;
+  flex-grow: 1;
+}
+
+h3 + p {
+  color: black;
+  width: 50%;
+  flex-grow: 2;
+}
+
+
+
+
 footer {
   display: flex;
   justify-content: flex-start;
